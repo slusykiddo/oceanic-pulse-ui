@@ -32,64 +32,64 @@ const navigationItems = [
     title: "Dashboard",
     url: "/",
     icon: BarChart3,
-    description: "Overview & KPIs"
+    description: "Overview with KPIs, live charts, and biodiversity trends"
   },
   {
-    title: "Species Portal",
+    title: "Species Explorer",
     url: "/species",
     icon: Search,
-    description: "ID & Search"
+    description: "Search & filter species with profiles, images & eDNA data"
   },
   {
-    title: "Oceanographic",
+    title: "Ocean Data",
     url: "/oceanographic",
     icon: Waves,
-    description: "Visualization"
+    description: "Heatmaps, 3D maps, and ocean parameter visualizations"
   },
   {
-    title: "Morphometric",
+    title: "Shape & Morphology Lab",
     url: "/morphometric",
     icon: ScanLine,
-    description: "Analysis"
+    description: "Interactive morphology, image upload & feature analysis"
   },
   {
-    title: "3D Models",
+    title: "3D Explorer",
     url: "/models",
     icon: Box,
-    description: "Organisms"
+    description: "Interactive 3D models - zoom, rotate, and annotate"
   },
   {
     title: "Otolith ID",
     url: "/otolith",
     icon: Eye,
-    description: "AI Classification"
+    description: "Image upload for species classification"
   },
   {
-    title: "Analytics",
+    title: "Analytics Hub",
     url: "/analytics",
     icon: TrendingUp,
-    description: "Correlations"
+    description: "Correlation dashboards & trend analysis"
   }
 ];
 
 const systemItems = [
   {
-    title: "Notifications",
+    title: "Alerts & Notifications",
     url: "/notifications",
     icon: Bell,
-    description: "Alerts"
+    description: "Updates on system events or discoveries"
   },
   {
     title: "Admin Panel",
     url: "/admin",
     icon: Upload,
-    description: "Management"
+    description: "Upload and manage species images/data"
   },
   {
-    title: "Settings",
+    title: "Profile & Settings",
     url: "/settings",
     icon: Settings,
-    description: "Profile"
+    description: "User profile, preferences & account options"
   }
 ];
 
